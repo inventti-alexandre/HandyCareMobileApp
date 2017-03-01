@@ -1,0 +1,2 @@
+﻿URL para verificar enfermeiros no Estado do Rio, onde o parâmetro da inscrição será alterado na hora de implementar.
+http://servicos.coren-rj.org.br/incorpnet/incorpnet40929.dll/controller?pagina=pub_mvcDetalheCadastro.htm&json={Commands:[{Command:LocalizarCadastro,params:{campos:[inscricao],condicoes:[%27=%27],valores:["1086567"],top:1}}]}

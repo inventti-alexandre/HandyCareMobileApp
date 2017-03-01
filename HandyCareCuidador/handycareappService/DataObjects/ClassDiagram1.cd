@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="handycareappService.DataObjects.Afazer">
+    <Position X="16.25" Y="47" Width="6" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAACAAEAAAAAAAQAAIAAAAAAAAAAAAQA=</HashCode>
+      <FileName>DataObjects\Afazer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="MedicamentoAdministrado" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="handycareappService.DataObjects.Avaliacao">
+    <Position X="7.25" Y="18" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAIAAAAAAAAAAEAgIAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>DataObjects\Avaliacao.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Cuidador" />
+      <Property Name="Familiar" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="handycareappService.DataObjects.ConCelular">
+    <Position X="29.75" Y="32.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>DataObjects\ConCelular.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="ContatoEmergencia" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="handycareappService.DataObjects.ConclusaoAfazer">
+    <Position X="7" Y="43" Width="8.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAEAAAAAAAAAAAgAABAQAAAAAAAAQAA=</HashCode>
+      <FileName>DataObjects\ConclusaoAfazer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Afazer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="handycareappService.DataObjects.ConEmail">
+    <Position X="28.5" Y="25.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAECAAAAAAAAA=</HashCode>
+      <FileName>DataObjects\ConEmail.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="ContatoEmergencia" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="handycareappService.DataObjects.ContatoEmergencia">
+    <Position X="22.5" Y="27.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAIAAAAACAIAAAAAAAAhEAgAEAAQEAAEAAAAAAA=</HashCode>
+      <FileName>DataObjects\ContatoEmergencia.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Cuidador" />
+      <Property Name="Familiar" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="handycareappService.DataObjects.ConTelefone">
+    <Position X="20.5" Y="35.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAA=</HashCode>
+      <FileName>DataObjects\ConTelefone.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="ContatoEmergencia" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="handycareappService.DataObjects.CorenEnfermeiro">
+    <Position X="34.25" Y="21.75" Width="6.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAACAAAAAAAAAQAAA=</HashCode>
+      <FileName>DataObjects\CorenEnfermeiro.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="ValidacaoCuidador" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="handycareappService.DataObjects.Cuidador">
+    <Position X="14.25" Y="20.5" Width="6.5" />
+    <TypeIdentifier>
+      <HashCode>IABAAQAAAAAAEAQAAAAgAAhAAAIAAAAEICAASAAQAAg=</HashCode>
+      <FileName>DataObjects\Cuidador.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TipoCuidador" />
+      <Property Name="ValidacaoCuidador" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="handycareappService.DataObjects.CuidadorPaciente">
+    <Position X="16" Y="14" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAABAAAAAAAAAAEAAAAAAAAAAQEAAAAAAACAA=</HashCode>
+      <FileName>DataObjects\CuidadorPaciente.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Cuidador" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="handycareappService.DataObjects.Familiar">
+    <Position X="5" Y="30.75" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAgAAAAAAAAAAAAAASAAAAAACQAAAQAAAQAAA=</HashCode>
+      <FileName>DataObjects\Familiar.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Parentesco" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="PacienteFamiliar" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="handycareappService.DataObjects.FormaApresentacaoMedicamento">
+    <Position X="45.75" Y="28.25" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAg=</HashCode>
+      <FileName>DataObjects\FormaApresentacaoMedicamento.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SubtipoFormaAdministracaoMedicamento" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="handycareappService.DataObjects.Material">
+    <Position X="29" Y="46" Width="6" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAQAAAAAAAAAAAAEAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataObjects\Material.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="handycareappService.DataObjects.MaterialUtilizado">
+    <Position X="16.5" Y="42.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AEACAAAAAQAAAAAAAAAAAAAEAAACAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>DataObjects\MaterialUtilizado.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Material" />
+      <Property Name="Afazer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="handycareappService.DataObjects.Medicamento">
+    <Position X="24" Y="37.75" Width="8.25" />
+    <AssociationLine Name="ViaAdministracaoMedicamento" Type="handycareappService.DataObjects.ViaAdministracaoMedicamento">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="1.279" Y="0.158" Height="0.404" Width="4" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABSAAAAAAgAAAAAAAEAAAAAAAgAAAAAAAABCBAAAAAA=</HashCode>
+      <FileName>DataObjects\Medicamento.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="FormaApresentacaoMedicamento" />
+      <Property Name="ViaAdministracaoMedicamento" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="handycareappService.DataObjects.MedicamentoAdministrado">
+    <Position X="23.5" Y="51" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQAAAAAAAAAAAAAAAIAAAAAAAEAAQAAAAAAAAAAg=</HashCode>
+      <FileName>DataObjects\MedicamentoAdministrado.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Medicamento" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="handycareappService.DataObjects.MotivoCuidado">
+    <Position X="43" Y="15.75" Width="5.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAABAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>DataObjects\MotivoCuidado.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Paciente" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="handycareappService.DataObjects.MotivoNaoConclusaoTarefa">
+    <Position X="7.75" Y="51" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAACAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataObjects\MotivoNaoConclusaoTarefa.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ConclusaoAfazer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="handycareappService.DataObjects.MotivoNaoValidacaoConclusaoAfazer">
+    <Position X="0.5" Y="41.75" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAABAAAAAAAIAAAAA=</HashCode>
+      <FileName>DataObjects\MotivoNaoValidacaoConclusaoAfazer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ValidacaoAfazer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="handycareappService.DataObjects.Paciente">
+    <Position X="28.5" Y="15.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAACQAAAACAAAgAAAAgAAAAAAABAAAAAA=</HashCode>
+      <FileName>DataObjects\Paciente.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="CuidadorPaciente" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="handycareappService.DataObjects.Parentesco">
+    <Position X="0.5" Y="26.25" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>DataObjects\Parentesco.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="handycareappService.DataObjects.PeriodoTratamento">
+    <Position X="6.75" Y="12.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAACAAAAAAAAAAEA=</HashCode>
+      <FileName>DataObjects\PeriodoTratamento.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="CuidadorPaciente" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="handycareappService.DataObjects.SubtipoFormaAdministracaoMedicamento">
+    <Position X="48" Y="22.75" Width="9.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAQAA=</HashCode>
+      <FileName>DataObjects\SubtipoFormaAdministracaoMedicamento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="handycareappService.DataObjects.SubtipoViaAdministracaoMedicamento">
+    <Position X="37.25" Y="38.75" Width="9" />
+    <TypeIdentifier>
+      <HashCode>AACAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataObjects\SubtipoViaAdministracaoMedicamento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="handycareappService.DataObjects.TipoContato">
+    <Position X="29.5" Y="29.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>DataObjects\TipoContato.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="ContatoEmergencia" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="handycareappService.DataObjects.TipoCuidador">
+    <Position X="7.75" Y="25.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>DataObjects\TipoCuidador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="handycareappService.DataObjects.TipoTratamento">
+    <Position X="52" Y="15.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAgA=</HashCode>
+      <FileName>DataObjects\TipoTratamento.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MotivoCuidado" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="handycareappService.DataObjects.ValidacaoAfazer">
+    <Position X="9.25" Y="37.75" Width="10.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAABAAAAACAAAAAgAAgAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>DataObjects\ValidacaoAfazer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ConclusaoAfazer" />
+      <Property Name="Familiar" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="handycareappService.DataObjects.ValidacaoCuidador">
+    <Position X="33.75" Y="27.75" Width="4.25" />
+    <AssociationLine Name="CorenEnfermeiro1" Type="handycareappService.DataObjects.CorenEnfermeiro">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.253" Y="-3.576" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAABAAAAAAAAAAAAEAAAAAAAAARAAAAAAAAAAA=</HashCode>
+      <FileName>DataObjects\ValidacaoCuidador.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CorenEnfermeiro1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="handycareappService.DataObjects.ViaAdministracaoMedicamento">
+    <Position X="40.25" Y="33" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAgAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>DataObjects\ViaAdministracaoMedicamento.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SubtipoViaAdministracaoMedicamento" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="handycareappService.DataObjects.Video">
+    <Position X="22.5" Y="21.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABQAAAAAAAQACAAAIAAAAA=</HashCode>
+      <FileName>DataObjects\Video.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Cuidador" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="VideoFamiliar" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="handycareappService.DataObjects.FotoFamiliar">
+    <Position X="3.25" Y="22" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAQAABAAAAAAAQAAAAAA=</HashCode>
+      <FileName>DataObjects\FotoFamiliar.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Familiar" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="handycareappService.DataObjects.VideoFamiliar">
+    <Position X="15.5" Y="33" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAQAAAg=</HashCode>
+      <FileName>DataObjects\VideoFamiliar.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Familiar" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="handycareappService.DataObjects.Foto">
+    <Position X="9.75" Y="21.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAACAAAQgAAAAAAAAAA=</HashCode>
+      <FileName>DataObjects\Foto.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Cuidador" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="FotoFamiliar" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="handycareappService.DataObjects.Camera">
+    <Position X="25.75" Y="11.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAoAAAAAAAAAAAACAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataObjects\Camera.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Familiar" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="handycareappService.DataObjects.PacienteFamiliar">
+    <Position X="0.75" Y="15.25" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAEAAgAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataObjects\PacienteFamiliar.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Paciente" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="20" />
+</ClassDiagram>
